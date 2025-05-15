@@ -11,3 +11,4 @@
 ## Important notes
 
 - No auth in this code, which is needed otherwise (access is Public)
+- In folder `/data` we have fake data and fake db-functions

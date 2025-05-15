@@ -1,4 +1,3 @@
-// src/index.ts
 import { PORT } from "./config";
 import app from "./server";
 

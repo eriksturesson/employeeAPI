@@ -1,7 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 import { Employee } from "../interfaces/Employee";
+import { EmployeeInput } from "../interfaces/EmployeeInput";
 
-export function buildEmployee(data: { firstName: string; lastName: string; email: string }): Employee {
+export function buildEmployee(data: EmployeeInput): Employee {
   return {
     id: uuidv4(),
     firstName: data.firstName.trim(),
